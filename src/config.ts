@@ -7,12 +7,12 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
+  title: 'Iccatt',
   subtitle: 'Demo Site',
   lang: 'en',
   themeHue: 250,
   banner: {
-    enable: false,
+    enable: true,
     src: 'assets/images/demo-banner.png',
   },
   favicon: [    // Leave this array empty to use the default favicon
