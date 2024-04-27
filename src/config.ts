@@ -31,11 +31,11 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
-    {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',
-      external: true,
-    },
+    // {
+    //   name: 'GitHub',
+    //   url: 'https://github.com/saicaca/fuwari',
+    //   external: true,
+    // },
   ],
 }
 
