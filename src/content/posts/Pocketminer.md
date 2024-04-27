@@ -1,6 +1,6 @@
 ---
 title: Paper translation of  "Pocketminer"
-published: 2023-04-27
+published: 2024-04-27
 description: A simple example of a Markdown blog post.
 tags: [Protein pocket, Research, Notes]
 category: Notes
