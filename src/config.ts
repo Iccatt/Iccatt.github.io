@@ -8,20 +8,22 @@ import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
   title: 'Iccatt',
-  subtitle: 'Demo Site',
+  subtitle: 'Blog Site',
   lang: 'en',
   themeHue: 250,
   banner: {
     enable: true,
     src: 'assets/images/demo-banner.png',
   },
-  favicon: [    // Leave this array empty to use the default favicon
+  favicon: [
+    // Leave this array empty to use the default favicon
     // {
-    //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-    //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-    //   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+    // src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
+    // src: 'assets/images/Icc.jpg',    // Path of the favicon, relative to the /public directory
+    // theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+    // sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
     // }
-  ]
+  ],
 }
 
 export const navBarConfig: NavBarConfig = {
@@ -38,24 +40,24 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/Icc.jpg',
+  name: 'Iccatt',
+  bio: '',
   links: [
     {
       name: 'Twitter',
       icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
+      url: '',
     },
     {
       name: 'Steam',
       icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      url: '',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/Iccatt',
     },
   ],
 }
